@@ -1,0 +1,67 @@
+{
+    "discos": [
+        {
+            "id": 1,
+            "modelo": "Metallica - Master of Puppet",
+            "marca": "Metal",
+            "precio": 28000,
+            "estilo": "mountain",
+            "imagen": "https://www.harrisonsrecords.cl/wp-content/uploads/2021/02/metallica-master-of-puppets.jpg"
+        },
+        {
+            "id": 2,
+            "modelo": "Led Zeppelin - IV",
+            "marca": "Hard Rock",
+            "precio": 25000,
+            "estilo": "trekk",
+            "imagen": "https://www.rockandpop.cl/wp-content/uploads/2023/11/led-zeppelin-iv-5e6def5e9133b-jpg.webp"
+        },
+        {
+            "id": 3,
+            "modelo": "Iron Maiden - seventh son of a seventh son",
+            "marca": "Metal",
+            "precio": 30000,
+            "estilo": "mountain",
+            "imagen": "https://m.media-amazon.com/images/I/91+-DdoC15L._UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 4,
+            "modelo": "AC/DC - Highway to hell",
+            "marca": "Hard Rock",
+            "precio": 25000,
+            "estilo": "trekk",
+            "imagen": "https://www.rockaxis.com/img/newsList/5995287.jpg"
+        },
+        {
+            "id": 5,
+            "modelo": "Black Sabbath - Paranoid",
+            "marca": "Metal",
+            "precio": 27000,
+            "estilo": "mountain",
+            "imagen": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222"
+        },
+        {
+            "id": 6,
+            "modelo": "The Ramones - Road to run",
+            "marca": "Road to run",
+            "precio": 29000,
+            "estilo": "road",
+            "imagen": "https://discointrepido.cl/wp-content/uploads/2021/07/1-13.jpg"
+        },
+        {
+            "id": 7,
+            "modelo": "The beatles - Abbey Road",
+            "marca": "Rock",
+            "precio": 30000,
+            "estilo": "trekk",
+            "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZNoNn1l2MzNsFdfuRtt6ZtGI8jHINvJsmHDIsajvQyCTzoDszoNNbXSRKPmdZq9GzirP6snNLbBH4VkA-5EKn0zoxRoO7fSRv4DJhUQ9bTFtAvXiRNvSuFu5KUFMZBfg0O9q2/s1600/abbeyroad5_uk.jpg"
+        },
+        {
+            "id": 8,
+            "modelo": "Alice In Chains - Dirt",
+            "marca": "Metal/Grunge",
+            "precio": 30000,
+            "estilo": "mountain",
+            "imagen": "https://www.nacionrock.com/wp-content/uploads/Alice_In_Chains__4e8b416ebe675.jpg"
+        }   ]
+}

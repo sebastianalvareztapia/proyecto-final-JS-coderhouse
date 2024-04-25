@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Link Css-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link javaScript-->
+    <script defer src="./home.js"></script>
+</head>
+
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Viniloz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">DISCOS <span class="sr-only"></span></a>
+        <a class="nav-item nav-link" href="#">MERCH</a>
+        <a class="nav-item nav-link" href="#">PLAYLIST</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <section class="productsContainer">
+        <div class="listaBusqueda" id="filtro">
+            <h4>ESTILOS</h4>
+            <ul>
+                <li><button id="mountain">METAL</button></li>
+                <li><button id="trekk">ROCK</button></li>
+                <li><button id="road">PUNK</button></li>
+            </ul>
+            <p><button id="borrar">BORRAR FILTROS</button></p>
+        </div>
+        <section>
+            <div class="row row-cols-1 row-cols-md-3 g-4 cards" id="cards-container">
+
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <section class="containerOne">
+
+        <div class="ImagenSec">
+            <p>Llevamos el rock a tu hogar</p>
+            <a href="#filtro">Ver productos</a>
+        </div>
+
+        <section id="carritoCompras">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito">
+            </ul>
+            <p>Total: $<span id="total"></span></p>
+
+            <button class="custom-btn btn-3" id="vaciarCarrito"><span>Vaciar Carrito</span></button>
+            <button class="custom-btn btn-3" id="realizarCompra"><span>Realizar Compra</span></button>
+
+        </section>
+    </section>
+
+    <!-- 1240x1390 -->
+
+    <div class="icons">
+        <a href="#carritoCompras" class="icon icon--whatsapp">
+            <i class="ri-whatsapp-line"><img src="assets/icons8-carrito-de-compras-64.png" alt=""></i>
+        </a>
+    </div>
+
+    <footer>
+        <h3>Viniloz</h3>
+        <p>@viniloz</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
